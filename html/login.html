@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ 
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+ 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+ 
+  <link rel="stylesheet" href="../css/style.css">
+ 
+  <title>UI Login</title>
+</head>
+<body>
+   <div class="container">
+     <div class="login-container">
+       <div class="login">
+         <h2>Iniciar sesión</h2>
+         <form action="">
+           <input type="text" id="user" placeholder="Usuario" class="nombre" required>
+           <input type="password" id="pass" placeholder="Contraseña" class="pass" required>
+           <input type="submit" class="submit" value="Ingresar" id="ingresar" onclick="login()">
+           <input type="submit" class="registra" value="Registrarte">
+         </form>
+         
+         <samp><a href="">¿Olvidó su contraseña?</a></samp>
+
+       </div>
+     </div>
+   </div>
+   <script src="../js/loadJson.js"></script>
+   <script src="../js/login.js"></script>
+</body>
+</html>

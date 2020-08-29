@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/loadInput.js"></script>
+    <title>Inicio</title>
+  </head>
+  <body>
+    <div class="d-flex">
+      <div id="sidebar-container" class="bg-primary">
+        <div class="logo">
+            <h4 class="text-light font-weight-bold">GYM</h4>
+        </div>
+        <div class="menu">
+          <a href="../index.html" class="d-block text-light  p-3"><i class="icon ion-md-home mr-2 lead"></i> Inicio</a>
+          <a href="./planes.html" class="d-block text-light  p-3"><i class="icon ion-md-paper mr-2 lead"></i> Planes</a>
+          <a href="./registro.html" class="d-block text-light  p-3"><i class="icon ion-md-walk mr-2 lead"></i> Rutinas</a>
+          <a href="./contactanos.html" class="d-block text-light  p-3"><i class="icon ion-md-contacts mr-2 lead"></i> Contactanos</a>
+        </div>
+      </div>
+
+      <div class="w-100">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+          <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <form class="form-inline position-relative my-2 d-inline-block">
+              <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+              <button class="btn btn-search position-absolute" type="submit"><i class="icon ion-md-search"></i></button>
+            </form>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="usuario" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="./img/perfil.jpg" class="img-fluid rounded-circle avatar mr-2">
+                   
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="../html/login.html" onclick="exit()">Cerrar sesión</a>
+                  </div>
+                </li>
+              </ul>        
+            </div>
+          </div>
+        </nav>
+
+        <div id="content">     
+            <section class="bg-grey">
+              <div class="container">
+                <div class="row">
+                    <div class="col-lg-4  my-3">
+                        <div class="card rounder-0">
+                          <div class="card-body">
+                            <h5 class="card-title font-weight-bold">PLAN SMART</h5>
+                            <img class="d-block w-100" src="../img/plan3.jpg"> 
+                            <p>
+                                <a class="btn btn-primary my-2" data-toggle="collapse" href="#collapseActividades" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                  Actividades
+                                </a>
+                                <button class="btn btn-primary my-2" type="button" data-toggle="collapse" data-target="#collapseCondiciones" aria-expanded="false" aria-controls="collapseExample">
+                                  Condiciones
+                                </button>
+                                <button class="btn btn-primary my-2" type="button" data-toggle="collapse" data-target="#collapseBeneficios" aria-expanded="false" aria-controls="collapseExample">
+                                    Beneficios
+                                </button>
+                            </p>
+                          </div>
+                        </div>
+                        <div class="collapse" id="collapseActividades">
+                            <div class="card card-body">
+                              <p class="card-text"> <i class="icon ion-md-checkmark icons"></i> Área de peso libre e integrado </p>
+                              <p class="card-text"> <i class="icon ion-md-checkmark icons"></i> Área de cardio </p>
+                              <p class="card-text"> <i class="icon ion-md-checkmark icons"></i> Camerinos </p>
+                              <p class="card-text"> <i class="icon ion-md-checkmark icons"></i> Duchas </p>  
+                              <p class="card-text"> <i class="icon ion-md-checkmark icons"></i> Lockers </p>     
+   
+                            </div>
+                        </div>
+                        <div class="collapse" id="collapseCondiciones">
+                            <div class="card card-body">
+                              <p class="card-text"> <i class="icon ion-md-checkmark icons"></i> Sin multa por cancelación con aviso previo a 30 días antes de la fecha de cobro </p>
+
+                            </div>
+                        </div>
+                        <div class="collapse" id="collapseBeneficios">
+                            <div class="card card-body">
+                            <p class="card-text"> <i class="icon ion-md-checkmark icons"></i> Acceso a todas las zonas </p>
+                            <p class="card-text"> <i class="icon ion-md-close iconsClose"></i> Sillones de masaje </p>
+                            <p class="card-text"> <i class="icon ion-md-close iconsClose"></i> Acceso a otras sedes de la cadena </p>
+                            <p class="card-text"> <i class="icon ion-md-close iconsClose"></i> Camiseta Black</p>  
+                            <p class="card-text"> <i class="icon ion-md-close iconsClose"></i> Invitar a 5 amigos </p>  
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4  my-3">
+                        <div class="card rounder-0 bg-dark">
+                          <div class="card-body">
+                            <h5 class="card-title font-weight-bold text-light">PLAN BLACK</h5>
+                            <img class="d-block w-100" src="../img/plan3.jpg"> 
+                            <p>
+                                <a class="btn btn-primary my-2" data-toggle="collapse" href="#collapseActividades2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                  Actividades
+                                </a>
+                                <button class="btn btn-primary my-2" type="button" data-toggle="collapse" data-target="#collapseCondiciones2" aria-expanded="false" aria-controls="collapseExample">
+                                  Condiciones
+                                </button>
+                                <button class="btn btn-primary my-2" type="button" data-toggle="collapse" data-target="#collapseBeneficios2" aria-expanded="false" aria-controls="collapseExample">
+                                    Beneficios
+                                </button>
+                            </p>
+                          </div>
+                        </div>
+                        <div class="collapse" id="collapseActividades2">
+                            <div class="card card-body bg-dark">
+                              <p class="card-text text-light"> <i class="icon ion-md-checkmark icons"></i> Área de peso libre e integrado </p>
+                              <p class="card-text text-light"> <i class="icon ion-md-checkmark icons"></i> Área de cardio </p>
+                              <p class="card-text text-light"> <i class="icon ion-md-checkmark icons"></i> Camerinos </p>
+                              <p class="card-text text-light"> <i class="icon ion-md-checkmark icons"></i> Duchas </p>  
+                              <p class="card-text text-light"> <i class="icon ion-md-checkmark icons"></i> Lockers </p>     
+   
+                            </div>
+                        </div>
+                        <div class="collapse" id="collapseCondiciones2">
+                            <div class="card card-body bg-dark">
+                              <p class="card-text text-light"> <i class="icon ion-md-checkmark icons"></i> Contrato a 12 meses</p>
+                              <p class="card-text text-light"> <i class="icon ion-md-checkmark icons"></i> Multa de cancelación</p>
+                            </div>
+                        </div>
+                        <div class="collapse" id="collapseBeneficios2">
+                            <div class="card card-body bg-dark">
+                            <p class="card-text text-light"> <i class="icon ion-md-checkmark icons"></i> Acceso a todas las zonas </p>
+                            <p class="card-text text-light"> <i class="icon ion-md-close icons"></i> Sillones de masaje </p>
+                            <p class="card-text text-light"> <i class="icon ion-md-close iconsClose"></i> Acceso a otras sedes de la cadena </p>
+                            <p class="card-text text-light"> <i class="icon ion-md-close icons"></i> Camiseta Black</p>  
+                            <p class="card-text text-light"> <i class="icon ion-md-close icons"></i> Invitar a 2 amigos </p>  
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4  my-3">
+                        <div class="card rounder-0 bg-success">
+                          <div class="card-body">
+                            <h5 class="card-title font-weight-bold text-light">PLAN PREMIUN</h5>
+                            <img class="d-block w-100" src="../img/plan3.jpg"> 
+                            <p>
+                                <a class="btn btn-primary my-2" data-toggle="collapse" href="#collapseActividades3" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                  Actividades
+                                </a>
+                                <button class="btn btn-primary my-2" type="button" data-toggle="collapse" data-target="#collapseCondiciones3" aria-expanded="false" aria-controls="collapseExample">
+                                  Condiciones
+                                </button>
+                                <button class="btn btn-primary my-2" type="button" data-toggle="collapse" data-target="#collapseBeneficios3" aria-expanded="false" aria-controls="collapseExample">
+                                    Beneficios
+                                </button>
+                            </p>
+                          </div>
+                        </div>
+                        <div class="collapse" id="collapseActividades3">
+                            <div class="card card-body bg-success">
+                              <p class="card-text text-light"> <i class="icon ion-md-checkmark icons"></i> Área de peso libre e integrado </p>
+                              <p class="card-text text-light"> <i class="icon ion-md-checkmark icons"></i> Área de cardio </p>
+                              <p class="card-text text-light"> <i class="icon ion-md-checkmark icons"></i> Camerinos </p>
+                              <p class="card-text text-light"> <i class="icon ion-md-checkmark icons"></i> Duchas </p>  
+                              <p class="card-text text-light"> <i class="icon ion-md-checkmark icons"></i> Lockers </p>     
+   
+                            </div>
+                        </div>
+                        <div class="collapse" id="collapseCondiciones3">
+                            <div class="card card-body bg-success">
+                              <p class="card-text text-light"> <i class="icon ion-md-checkmark icons"></i> Contrato a 12 meses</p>
+                              <p class="card-text text-light"> <i class="icon ion-md-checkmark icons"></i> Multa de cancelación</p>
+                              <p class="card-text text-light"> <i class="icon ion-md-checkmark icons"></i> Cancelación con aviso previo a 30 días antes de la fecha de cobro.</p>
+                            </div>
+                        </div>
+                        <div class="collapse" id="collapseBeneficios3">
+                            <div class="card card-body bg-success">
+                            <p class="card-text text-light"> <i class="icon ion-md-checkmark icons"></i> Acceso a todas las zonas </p>
+                            <p class="card-text text-light"> <i class="icon ion-md-close icons"></i> Sillones de masaje </p>
+                            <p class="card-text text-light"> <i class="icon ion-md-close icons"></i> Acceso a otras sedes de la cadena </p>
+                            <p class="card-text text-light"> <i class="icon ion-md-close icons"></i> Camiseta Black</p>  
+                            <p class="card-text text-light"> <i class="icon ion-md-close icons"></i> Invitar a 2 amigos </p>  
+                            </div>
+                        </div>
+                    </div>     
+                </div>
+              </div>
+            </section>
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12  my-3">
+                            <div class="card rounder-0 ">
+                              <div class="card-body">
+                                <button type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="#suscribeteModal" data-whatever="@mdo"><i class="icon ion-md-notifications"></i>Suscribrete</button>
+
+                              </div>
+                              <div class="modal fade" id="suscribeteModal" tabindex="-1" role="dialog" aria-labelledby="suscribeteModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="suscribeteModalLabel">Suscripción</h5>
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                                    </div>
+                                    <div class="modal-body">
+                                      <form>
+                                        <div class="form-group">
+                                          <label for="recipient-name" class="col-form-label">Nombre:</label>
+                                          <input type="text" class="form-control" id="nombre" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="recipient-name" class="col-form-label">Apellido:</label>
+                                            <input type="text" class="form-control" id="apellido" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleFormControlInput1">Correo electronico</label>
+                                            <input type="email" class="form-control" id="correo" placeholder="name@example.com">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="recipient-name" class="col-form-label">Fecha nacimiento:</label>
+                                            <input type="date" class="form-control" id="fechan">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleFormControlSelect1">Metodo de pago</label>
+                                            <select class="form-control" id="metopago" onchange="loadBanco(this.id, 'banco')"
+                                            value = "<%= typeof metopago != 'undefined' ? metopago : '' %>">
+                                            <option value=""></option>
+                                            <option value="Ahorro">Ahorro</option> 
+                                            <option value="Corriente">Corriente</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleFormControlSelect1">Bancos</label>
+                                            <select class="form-control" id="banco"></select>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="recipient-name" class="col-form-label">No Cuenta:</label>
+                                            <input type="number" class="form-control" id="cuenta">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleFormControlSelect1">Meses a sucribir</label>
+                                            <select class="form-control" id="meses">
+                                              <option value=""></option>  
+                                              <option value="1">1</option>
+                                              <option value="2">2</option>
+                                              <option value="3">3</option>
+                                              <option value="4">4</option>
+                                              <option value="5">5</option>
+                                              <option value="6">6</option>
+                                              <option value="7">7</option>
+                                              <option value="8">8</option>
+                                              <option value="9">9</option>
+                                              <option value="10">10</option>
+                                              <option value="11">11</option>
+                                              <option value="12">12</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleFormControlSelect1">Planes</label>
+                                            <select class="form-control" id="plan">
+                                              <option value="">""</option>
+                                              <option value="SMART">PLAN SMART</option>
+                                              <option value="BLACK">PLAN BLACK</option>
+                                              <option value="PREMIUN">PLAN PREMIUN</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                                            <label class="form-check-label" for="exampleCheck1">Acepta terminos</label>
+                                          </div>
+                                      </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Salir</button>
+                                      <button type="button" class="btn btn-primary" onclick="process()">Comprar</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bg-footer">
+              <div class="container">
+                <footer class="page-footer font-weight-bold  "> 
+                  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+                    <a href="#"> ELVIS PAREJA</a>
+                  </div>                
+                </footer>
+                </div>
+                
+
+              </div>
+
+            </section>
+        </div>
+      </div>
+
+    </div>
+
+    <script>
+      var nameJSON = JSON.parse(localStorage.getItem('cliente'));
+      var element = document.getElementById("usuario");
+      if(nameJSON != null){
+        element.innerHTML = "Bienvenido " + nameJSON.nombre;
+      }
+    </script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../js/savePlan.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>

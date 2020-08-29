@@ -1,0 +1,26 @@
+[
+    {   
+        "id" : "1",
+        "nombre" : "Elvis Junior",
+        "correo" : "Pareja@mail.com",
+        "usuario" : "epareja",
+        "contrasena" : "1234567",
+        "sexo" : "M"
+    },
+    {   
+        "id" : "2",
+        "nombre" : "Admin",
+        "correo" : "admin@mail.com",
+        "usuario" : "admin",
+        "contrasena" : "admin",
+        "sexo" : "M"
+    },
+    {   
+        "id" : "3",
+        "nombre" : "prueba",
+        "correo" : "prueba@mail.com",
+        "usuario" : "prueba",
+        "contrasena" : "12345",
+        "sexo" : "F"
+    }
+]
